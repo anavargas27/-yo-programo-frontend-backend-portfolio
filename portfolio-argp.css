@@ -1,0 +1,244 @@
+/*------------------------FONDO CON LA IMAGEN-------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+  text-decoration: none;
+  
+  }
+
+header{
+  width: 100%;
+  height: 90%;
+  
+  top: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+/*---------------------------menu hamburguesa-------------------------------------------*/
+.offcanvas-body{ 
+  background-image: url(../img/humo\ .jpg);
+  box-shadow: 0 0 1rem rgba(209, 170, 202, 0.408);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  min-height: 100vh;
+  object-fit: cover;
+  }
+
+/* ---------------------fondo de inicio con imagen  -----------------------------------  */
+#inicio {
+  background-image: url(../img/humo\ .jpg);
+  box-shadow: 0 0 1rem rgba(112, 78, 78, 0.988);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  min-height: 100vh;
+  object-fit: cover;
+    }
+#inicio .descripcion-inicio{
+
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+#inicio .contenido .presentacion{
+  color: bisque;
+  max-width: 1100px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#inicio .contenido .presentacion .bienvenida{
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-transform:uppercase;
+  letter-spacing: 5px;
+}
+
+#inicio .contenido .presentacion h2{
+  font-size: 55px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#inicio .contenido .presentacion h2 span{
+  font-size: 25px;
+  color: #000000fc;
+}
+
+#inicio .contenido .presentacion .descripcion{
+  max-width: 700px;
+  margin: 25px auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/*------------------BARRA LATERAL DE REDES--------------------------------*/
+
+
+
+.social-bar{
+    font-size: 20px;
+    
+}
+
+.social-bar{
+    position: fixed;
+    left: 0;
+    top: 35%;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+    
+}
+
+
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all 6%;
+}
+
+.icon-github { background: #171515;}
+.icon-whatsapp {background:#128C7E ;}
+.icon-linkedin {background: #1b80e4;}
+.icon-facebook {background: #3b5998}
+.icon-gmail {background: #db4a39;}
+
+
+
+.icon:hover {
+    padding:1rem; 
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-shadow: 0 0 1rem rgb(0, 0, 0);
+}
+
+.container {
+   color: beige;
+}
+
+
+/* ------------------------sobre mi---------------------*/
+
+  
+
+#sobremi {
+  background-color: rgba(116, 42, 35, 0.358);
+  padding: 90px 0;
+}
+#sobremi h2{
+  padding-bottom: 50px;
+}
+.about-row{
+  display: flex;
+}
+.about-row-image img {
+  height: 300px;
+  padding-right: 70px;
+}
+#sobremi hr{
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+/*-----------------------------educacion--------------------------*/
+#educacion {
+  background-color: rgba(176, 59, 49, 0.358);
+  padding: 90px 0;
+}
+#educacion h2{
+  padding-bottom: 50px;
+}
+.edu-row{
+  display: flex;
+}
+.edu-row-list ul{
+  padding: 20px;
+}
+
+
+
+
+
+
+/*-----------------------------skills--------------------------*/
+#skills{
+  padding: 70px 90px;
+  display: grid;
+background: #c9574b26;
+  
+}
+
+#skills h2{
+  padding-bottom: 50px;
+}
+#skills-row{
+  display: block;
+  padding-bottom: 50px;
+}
+.skills-row-left,
+.skills-row-right{
+  width: 50%;
+  display: block;
+}
+
+.skills-row-left-image,
+.skills-row-right-image{
+
+  width: 50%;
+  text-align: right;
+  padding-right: 80px;
+}
+
+.skills-row-left-image img,
+.skills-row-right-image img{
+  height: 50px;
+}
+.progress-bar{
+  width: 50%;
+}
+
+/*--------------------------proyectos-------------------*/
+#proyectos{
+  padding: 70px 90px;
+  display: grid;
+  background:#f3070711;
+
+}
+#proyectos h3{
+  padding-bottom: 40px;
+}
+.timeline-row{
+  display: flex;
+  padding-bottom: 30px;
+}
+.timeline-row-tag{
+  width: 25%;
+  text-align: right;
+  padding-right: 50px;
+}
+.timeline-row-tag p span{
+  background: #c4c4c4;
+  color: #1e1d1d;
+  padding: 12px 30px;
+  border-radius: 20px;
+}
